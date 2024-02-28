@@ -21,8 +21,6 @@ public class Dashboard {
 	@Test
 	public void Login() {
 		try {
-
-			Thread.sleep(1000);
 			driver.findElement(By.name("username")).sendKeys("Admin");
 			Thread.sleep(1000);
 			driver.findElement(By.name("password")).sendKeys("admin123");
